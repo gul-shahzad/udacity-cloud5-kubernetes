@@ -8,7 +8,7 @@
 setup:
 	# Create python virtualenv & source it
 	# source ~/.devops/bin/activate
-	python3 -m venv ~/.udacity-cloud4-kubernetes
+	python3 -m venv ~/.udacity-cloud5-kubernetes
 	
 install:
 	# This should be run from inside a virtualenv
