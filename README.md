@@ -1,5 +1,5 @@
-<include a CircleCI status badge, here>
-
+[![<kubernetes>](https://circleci.com/gh/kubernetes/udacity-cloud5-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/gul-shahzad/udacity-cloud5-kubernetes/20/workflows/8d9fef7a-6f4f-4c2e-a892-d83285e28ec8/jobs/20)
+  
 ## Project Overview
 
 In this project, we will operationalize a Machine Learning Microservice API. 
