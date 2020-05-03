@@ -8,8 +8,8 @@
 setup:
 	# Create python virtualenv & source it
 	# source ~/.devops/bin/activate
-	python3 -m venv ~/.udacity-cloud5-kubernetes
-	
+	python3 -m venv ~/.udacity-cloud5-kubernetes &&\
+		source ~/.udacity-cloud5-kubernetes/bin/activate
 install:
 	# This should be run from inside a virtualenv
 	pip install --upgrade pip &&\
