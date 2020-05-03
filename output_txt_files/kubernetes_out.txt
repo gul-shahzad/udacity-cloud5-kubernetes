@@ -1,1 +1,13 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.udacity-cloud5-kubernetes) shahzadgul@Shahzads-MBP udacity-cloud5-kubernetes % kubectl get pods                     
+
+NAME             READY   STATUS    RESTARTS   AGE
+gulvaizsklearn   1/1     Running   0          35m
+(.udacity-cloud5-kubernetes) shahzadgul@Shahzads-MBP udacity-cloud5-kubernetes % curl localhost:8000 
+curl: (7) Failed to connect to localhost port 8000: Connection refused
+(.udacity-cloud5-kubernetes) shahzadgul@Shahzads-MBP udacity-cloud5-kubernetes % kubectl port-forward gulvaizsklearn 8000:80
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+
